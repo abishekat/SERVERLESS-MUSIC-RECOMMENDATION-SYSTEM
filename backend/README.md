@@ -8,14 +8,14 @@ STEP 2. Configure AWS CLI for CodeCommit [5].
 
 STEP 3. Create the IAM role with the following
 permissions.   
-a. AmazonS3FullAccess   
-b. AmazonAPIGatewayInvokeFullAccess  
-c. CloudWatchFullAccess  
-d. AmazonDynamoDBFullAccess   
-e. AWSLambdaExecute   
-f. AmazonElasticFileSystemFullAccess  
-g. AWSLambdaVPCAccessExecutionRole  
-h. AmazonElasticFileSystemClientFullAccess  
+        a. AmazonS3FullAccess   
+        b. AmazonAPIGatewayInvokeFullAccess  
+        c. CloudWatchFullAccess  
+        d. AmazonDynamoDBFullAccess   
+        e. AWSLambdaExecute   
+        f. AmazonElasticFileSystemFullAccess  
+        g. AWSLambdaVPCAccessExecutionRole  
+        h. AmazonElasticFileSystemClientFullAccess  
 
 STEP 4. Create an EFS with all the dependency files and
 mount it in “/mnt/efs” through EC2.  
