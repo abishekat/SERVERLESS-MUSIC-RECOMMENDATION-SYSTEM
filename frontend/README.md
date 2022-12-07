@@ -1,4 +1,4 @@
-# Project Almusiqaa
+# Project Almusiqaa Frontend
 
 Music Recommendation System
 
